@@ -14,11 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageView2: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-   
+    }
+
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        print("botton got pressed")
+        
         diceImageView1.alpha = 0.5
         diceImageView2.alpha = 0.2
     }
-
-
+    
 }
 
